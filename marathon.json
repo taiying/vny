@@ -21,7 +21,7 @@
     {
       "protocol": "HTTP",
       "path": "/",
-      "portIndex": 1,
+      "portIndex": 0,
       "gracePeriodSeconds": 5,
       "intervalSeconds": 10,
       "timeoutSeconds": 10,
@@ -30,7 +30,7 @@
   ],
   "labels": {
     "HAPROXY_GROUP": "external",
-    "DCOS_SERVICE_PORT_INDEX": "1",
+    "DCOS_SERVICE_PORT_INDEX": "0",
     "DCOS_SERVICE_SCHEME": "http",
     "DCOS_SERVICE_NAME": "nginx-ty"
   }
