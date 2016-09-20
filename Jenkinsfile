@@ -35,6 +35,6 @@ node {
         credentialsId: 'dcos-token',
         filename: 'marathon.json',
         appId: 'nginx-ty',
-        docker: "tyhotmail/mesosphere_vny:${gitCommit()}".toString()
+        docker: "tyhotmail/mesoshpere_vny:${gitCommit()}".toString()
     )
 }
